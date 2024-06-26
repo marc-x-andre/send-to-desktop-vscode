@@ -6,4 +6,4 @@ This functionality can enhance productivity by making it easier to access freque
 
 ## Release Notes
 
-See [CHANGELOG.md](./CHANGELOG.md)
+See [CHANGELOG.md](CHANGELOG.md)

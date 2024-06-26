@@ -2,10 +2,14 @@
   "name": "send-to-desktop-vscode",
   "displayName": "Send to Desktop",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.90.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marc-x-andre/send-to-desktop-vscode.git"
   },
   "categories": [
     "Other"
