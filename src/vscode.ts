@@ -16,15 +16,13 @@ const updateVScodeSettings = async (
   colorBack: string
 ) => {
   const settingFile = `${folderPath}/.vscode/settings.json`;
-  upsertPath(settingFile);
+  await upsertPath(`${folderPath}/.vscode`);
   // Getting the content
   let fileContent = {};
   try {
     const data = await fs.readFile(settingFile, "utf8");
     fileContent = JSON.parse(data);
-  } catch (err) {
-    throw err;
-  }
+  } catch (err) {}
   // Merging
   const updatedContent = {
     ...fileContent,

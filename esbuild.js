@@ -44,8 +44,11 @@ async function main() {
         dest: "./dist",
       }),
       copyStaticFiles({
-        src: "./node_modules/create-desktop-shortcuts/src/windows.vbs",
+        src: "./node_modules/create-desktop-shortcuts/src",
         dest: "./dist",
+        filter: function (path) {
+          return !path.includes(".js");
+        },
       }),
       /* add to the end of plugins array */
       esbuildProblemMatcherPlugin,
