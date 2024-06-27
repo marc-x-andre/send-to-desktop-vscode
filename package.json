@@ -1,8 +1,10 @@
 {
   "name": "send-to-desktop-vscode",
   "displayName": "Send to Desktop",
+  "publisher": "MarcxAndre",
+  "icon": "images/logo.png",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "engines": {
     "vscode": "^1.90.0"
