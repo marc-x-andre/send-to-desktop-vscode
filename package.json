@@ -4,7 +4,7 @@
   "publisher": "MarcxAndre",
   "icon": "images/logo.png",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "license": "MIT",
   "engines": {
     "vscode": "^1.90.0"
@@ -67,7 +67,6 @@
     "fs": "^0.0.1-security",
     "sharp": "^0.33.4",
     "sharp-bmp": "^0.1.5",
-    "sharp-ico": "^0.1.5",
-    "svgson": "^5.3.1"
+    "sharp-ico": "^0.1.5"
   }
 }

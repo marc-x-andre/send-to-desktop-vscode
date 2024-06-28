@@ -40,10 +40,6 @@ async function main() {
     logLevel: "silent",
     plugins: [
       copyStaticFiles({
-        src: "./src/assets",
-        dest: "./dist",
-      }),
-      copyStaticFiles({
         src: "./node_modules/create-desktop-shortcuts/src",
         dest: "./dist",
         filter: function (path) {
